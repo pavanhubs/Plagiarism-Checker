@@ -74,7 +74,7 @@ with st.sidebar:
     st.markdown("---")
 
 # File Upload Section
-st.markdown("### 📂 Upload Assignments", unsafe_allow_html=True)
+st.markdown("### 📂 Upload Documents", unsafe_allow_html=True)
 uploaded_files = st.file_uploader("Select .txt files", type=["txt"], accept_multiple_files=True, key="uploader")
 
 if uploaded_files and len(uploaded_files) > 1:
