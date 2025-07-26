@@ -70,7 +70,7 @@ st.write("SRM University, Ramapuram")
 # Sidebar - Settings
 with st.sidebar:
     st.header("⚙ Settings")
-    threshold = st.slider("Similarity Threshold", 0, 100, 75)
+    threshold = st.slider("Similarity Threshold", 0.0, 1.0, 0.75)
     st.markdown("---")
 
 # File Upload Section
