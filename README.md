@@ -13,3 +13,5 @@ A simple and elegant Streamlit web app that detects textual similarities between
 - 📁 Downloadable similarity report in CSV format
 
 ---
+## Open Link With Web Browser
+http://192.168.1.31:8501
